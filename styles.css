@@ -219,14 +219,15 @@ hr {
 
   .recipe {
     display: grid;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 2.7rem;
+    padding: 2.5rem;
     border-radius: 1rem;
-    margin: 5rem 0;
+    margin: 7.7rem 0;
   }
 
   .recipe img {
     border-radius: 1rem;
+    height: 300px;
   }
 
   .recipe-content {
