@@ -27,7 +27,7 @@
   --ff-accent: 'Outfit';
 
   --fs-300: 1rem;
-  --fs-600: 2rem;
+  --fs-600: 1.8rem;
   --fs-700: 2.3rem;
 
   --fw-regular: 400;
@@ -112,7 +112,7 @@ hr {
 }
 
 .recipe {
-  max-width: 750px;
+  max-width: 710px;
   background: var(--white);
 }
 
@@ -149,7 +149,7 @@ hr {
 .recipe-content ol {
   display: grid;
   gap: .5rem;
-  padding: .5rem;
+  padding: 1rem .5rem;
 }
 
 .recipe-content ul li {
@@ -231,9 +231,5 @@ hr {
 
   .recipe-content {
     padding: 0;
-  }
-
-  .recipe-content>hr {
-    display: none;
   }
 }
